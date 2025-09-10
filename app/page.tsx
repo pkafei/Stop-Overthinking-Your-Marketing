@@ -29,14 +29,17 @@ export default function Home() {
                   href="https://calendly.com/torchfront/free-digital-marketing-consultation?month=2025-09"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-primary text-lg inline-block text-center"
+                  className="btn-primary text-lg inline-block text-left"
                 >
-                  Schedule Your Free Session
+                  Schedule Your Free 90-Minute Session
                 </a>
                 {/* <button className="btn-secondary text-lg">
                   Learn More
                 </button> */}
               </div>
+              <p className="text-gray-600 italic mt-4 text-left pl-4">
+                Limited spots available- claim yours today.
+              </p>
             </div>
 
             <div className="relative">
@@ -50,7 +53,7 @@ export default function Home() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-accent-500 text-white p-4 rounded-xl shadow-lg">
-                <p className="font-semibold">Free 90-Minute Session</p>
+                <p className="font-semibold">Free Strategy Session</p>
                 <p className="text-sm">Worth $500</p>
               </div>
             </div>
