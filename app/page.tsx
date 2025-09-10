@@ -14,23 +14,23 @@ export default function Home() {
                   <span className="text-primary-600">Marketing</span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-gray-600 font-medium">
-                  Gain clarity and confidence in just 90 minutes.
+                  Gain clarity and confidence in your marketing. In just 90 minutes.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200">
+              {/* <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   If you've been second-guessing every move, chasing "one more hack," or drowning in tools—you don't need more noise. You need focus.
                 </p>
-              </div>
+              </div> */}
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="btn-primary text-lg">
                   Schedule Your Free Session
                 </button>
-                <button className="btn-secondary text-lg">
+                {/* <button className="btn-secondary text-lg">
                   Learn More
-                </button>
+                </button> */}
               </div>
             </div>
 
