@@ -147,6 +147,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quote Section */}
+      <section className="py-16 lg:py-24 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <blockquote className="text-2xl lg:text-3xl font-bold text-white leading-relaxed">
+            Stop second-guessing your marketing. You don't need more tools. You don't need AI. You need clarity.
+          </blockquote>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 lg:py-24 bg-primary-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
