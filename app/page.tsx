@@ -159,6 +159,103 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Logos Section */}
+      <section className="bg-white py-6 sm:py-8">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-center text-2xl lg:text-3xl font-bold text-gray-900">
+            Companies We Served
+          </h2>
+          <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-2xl sm:grid-cols-3 sm:gap-x-12 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            {/* First row - Major logos */}
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="RIJ"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538666/RIJ-_Final_Header_Logo_w30x3g.avif"
+                width={200}
+                height={60}
+                className="max-h-16 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Google"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757539335/SOM-Google_logo.svg_yrytym.webp"
+                width={200}
+                height={60}
+                className="max-h-16 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Near"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-near_logo-768x301_qzicbe.png"
+                width={180}
+                height={54}
+                className="max-h-14 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="DigitalOcean"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-DO_Logo_Horizontal_Black_uxdvyv_ip8nim.png"
+                width={180}
+                height={54}
+                className="max-h-14 w-full object-contain"
+              />
+            </div>
+            
+            {/* Second row - Supporting logos */}
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Honeycomb"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-honeycomb_hzbwmx.svg"
+                width={140}
+                height={42}
+                className="max-h-10 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Purple Tor"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-Purple-Tor-Logo_b7luco.png"
+                width={140}
+                height={42}
+                className="max-h-10 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Gatsby"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-gatsby_mwtvwp_zfphkn.png"
+                width={140}
+                height={42}
+                className="max-h-10 w-full object-contain"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center">
+              <Image
+                alt="Bloom Credit"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM_bloomcredit_ffdlfs_mpxi4v.png"
+                width={180}
+                height={54}
+                className="max-h-14 w-full object-contain"
+              />
+            </div>
+            
+            {/* Third row - Outsmartly centered */}
+            <div className="col-span-2 sm:col-span-3 lg:col-span-4 flex justify-center">
+              <Image
+                alt="Outsmartly"
+                src="https://res.cloudinary.com/dncb2k7md/image/upload/v1757538624/SOM-outsmartly_nvhvuq_rmt3if.jpg"
+                width={200}
+                height={60}
+                className="max-h-16 w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonial Section */}
       <section className="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
         <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
