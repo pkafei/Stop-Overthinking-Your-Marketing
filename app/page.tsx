@@ -14,7 +14,7 @@ export default function Home() {
                   <span className="text-primary-600">Marketing</span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-gray-600 font-medium">
-                  Gain clarity and confidence in your marketing. In just 90 minutes.
+                  Gain clarity in your marketing strategy. In just 90 minutes.
                 </p>
               </div>
               
