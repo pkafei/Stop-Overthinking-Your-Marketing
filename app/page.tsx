@@ -25,9 +25,14 @@ export default function Home() {
               </div> */}
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="btn-primary text-lg">
+                <a 
+                  href="https://calendly.com/torchfront/free-digital-marketing-consultation?month=2025-09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary text-lg inline-block text-center"
+                >
                   Schedule Your Free Session
-                </button>
+                </a>
                 {/* <button className="btn-secondary text-lg">
                   Learn More
                 </button> */}
@@ -116,17 +121,17 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                I've built and scaled 6-figure businesses, worked with Fortune 500 companies, and helped local entrepreneurs grow million-dollar portfolios. Now I'm helping business owners like you cut through the noise and focus on what works.
+                I've built and scaled 6-figure businesses, worked with Fortune 500 companies, and helped local real estate investors grow million-dollar portfolios. Now I'm helping business owners like you cut through the noise and focus on what works.
               </p>
               
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-2xl font-bold text-primary-600">6+</div>
+                  <div className="text-2xl font-bold text-primary-600">10+</div>
                   <div className="text-sm text-gray-600">6-Figure Businesses</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-2xl font-bold text-primary-600">500+</div>
-                  <div className="text-sm text-gray-600">Fortune 500 Clients</div>
+                  <div className="text-2xl font-bold text-primary-600">20+</div>
+                  <div className="text-sm text-gray-600">VC-Backed Startups</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="text-2xl font-bold text-primary-600">$1M+</div>
@@ -174,9 +179,14 @@ export default function Home() {
                 👉 Schedule your free 90-minute "Tame Your Tools" session now.
               </h3>
               
-              <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+              <a 
+                href="https://calendly.com/torchfront/free-digital-marketing-consultation?month=2025-09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block text-center"
+              >
                 Get My Free Consultation
-              </button>
+              </a>
               
               <p className="text-sm text-gray-500 mt-4">
                 No spam. No fluff. Just results. We'll contact you within 24 hours.
